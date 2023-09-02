@@ -10,7 +10,6 @@ public class Cliente implements Serializable {
 
     @Id
     private String cedula;
-
     private String nombre, email, telefono;
 
     public Cliente(){ }
